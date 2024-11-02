@@ -44,7 +44,15 @@ public class FileCheckSHA {
         }
 
     }
+
+    /**
+     * 从内嵌字符串中获取指定长度的随机字符串
+     * @param strSize
+     * @return
+     */
     public static String getStrRadom(int strSize){
+
+        Object o = new Object();
         String sed="zxcvbnmasdfghjklqwertyuiop/+ZXCVBNMASDFGHJKLQWERTYUIOP1234567890";
         char[] chars = sed.toCharArray();
         int num=chars.length;
